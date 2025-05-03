@@ -27,7 +27,7 @@ function BoardForm(props) {
                 console.log("Post updated successfully:", response.data);
                 console.log(response.data);
                 // Navigate to the board page after successful post creation
-                navi(`/api/board/detail/${response.data.id}`);
+                navi(`/board/`);
             })
             .catch((error) => {
                 console.error("Error creating post:", error);
