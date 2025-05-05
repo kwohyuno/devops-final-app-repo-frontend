@@ -43,7 +43,7 @@ function Login(props) {
 
     return (
         <div>
-            <div className="login-blue">Green Version</div>
+            <div className="login-blue">Blue Version</div>
             <form className="login-form" onSubmit={onSubmitEvent}>
                 <div>
                     <img className="header-icon" alt=""
